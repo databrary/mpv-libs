@@ -32,7 +32,7 @@
     <build>
         <resources>
             <resource>
-                <!-- MPV 2.0.8 version -->
+                <!-- MPV 0.29.1 version -->
                 <directory>lib</directory>
                 <includes>
                     <include>mpv-1.dll</include>
