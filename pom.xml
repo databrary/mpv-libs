@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>datavyu</groupId>
+    <artifactId>mpv-libs</artifactId>
+    <version>0.1</version>
+    <name>Datavyu</name>
+    <url>http://datavyu.org</url>
+
+    <!-- Our organisation. -->
+    <organization>
+        <name>Datavyu Foundation</name>
+        <url>http://datavyu.org</url>
+    </organization>
+
+    <!-- Datavyu Distribution Management Repositories -->
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>ip-10-0-0-114-releases</name>
+            <url>https://projects.databrary.org/artifactory/libs-release-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>ip-10-0-0-114-snapshots</name>
+            <url>https://projects.databrary.org/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <build>
+        <resources>
+            <resource>
+                <!-- MPV 2.0.8 version -->
+                <directory>lib</directory>
+                <includes>
+                    <include>mpv-1.dll</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+</project>
