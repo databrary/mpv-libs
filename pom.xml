@@ -3,17 +3,36 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>datavyu</groupId>
+    <groupId>org.datavyu</groupId>
     <artifactId>mpv-libs</artifactId>
-    <version>0.2</version>
-    <name>Datavyu</name>
-    <url>http://datavyu.org</url>
+    <version>0.29.1</version>
+
+    <name>MPV-libs 0.29.1</name>
+    <description>MPV 0.29.1 Libraries for Windows</description>
+    <url>https://github.com/databrary/mpv-libs</url>
 
     <!-- Our organisation. -->
     <organization>
         <name>Datavyu Foundation</name>
         <url>http://datavyu.org</url>
     </organization>
+
+    <issueManagement>
+        <url>https://github.com/databrary/mpv-libs/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 3.0</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0-standalone.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/databrary/mpv-libs</url>
+    </scm>
 
     <!-- Datavyu Distribution Management Repositories -->
     <distributionManagement>
